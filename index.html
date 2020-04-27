@@ -12,6 +12,10 @@
     <h1>Hello World</h1>
     <p>Hello</p>
     <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-    <script src="./index.js"></script>
+    <script>
+      $('h1').hover(() => {
+        $('h1').css('background-color', 'red');
+      });
+    </script>
 </body>
 </html>
